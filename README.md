@@ -23,7 +23,7 @@ In our solution,  3D segmentation methods are utilized for fracture detection ta
 
 ## Training
 
-Training code is modified directly on nn-UNet, so it may not be well organized.
+Training codes are directly modified on nn-UNet, so it may not be well organized.
 
 1. Stage 1
    	
