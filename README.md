@@ -25,9 +25,9 @@ In our solution,  3D segmentation methods are utilized for fracture detection ta
 Since I debug these experiments step-by-step, it may be little bit complicated to reproduce all the experiments i have done
 
 1. Stage 1
-   
+   	
 	- Download [Competition Data](https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/data), [TotalSegmentator Data(CC-BY-4.0)](https://zenodo.org/record/6802614#.Y2nkrHYzZPY) and [Verse2020 Data(CC-BY-4.0)](https://github.com/anjany/verse)
-
+	- Speicfy all path in path.py
 	- Convert competition data to NIFTI image
 	   -  cd /DatasetConversion/
 	   -  python step0_trans_DICOM_to_Nii.py
