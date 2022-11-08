@@ -79,7 +79,6 @@ Since I debug these experiments step-by-step, it may be little bit complicated t
 After training, you can use this notebook for inference https://www.kaggle.com/code/lsl000ud/rsna2022-7th-place-inference
 
 ## Acknowledgement
-Thank [nnUnet](https://github.com/MIC-DKFZ/batchgenerators) and [batchgenerators](https://github.com/MIC-DKFZ/batchgenerators)
-Thank RSNA 2022 Organizers
-- https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/overview
+-Thank [nnUnet](https://github.com/MIC-DKFZ/batchgenerators) and [batchgenerators](https://github.com/MIC-DKFZ/batchgenerators)
+-Thank RSNA 2022 Organizers, https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/overview
 
