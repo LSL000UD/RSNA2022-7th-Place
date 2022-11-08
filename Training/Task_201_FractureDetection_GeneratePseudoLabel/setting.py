@@ -34,7 +34,7 @@ do_dummy_2D_data_aug = False
 
 # Training
 fold = 'all'
-GPU_id = 2
+GPU_id = 0
 network = '3d_fullres'
 network_trainer = 'nnUNetTrainerV2'
 previous_plan = None
