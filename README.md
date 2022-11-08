@@ -1,11 +1,10 @@
 # RSNA 2022 Cervical Spine Fracture Detection 7th solution
 Fracture Detection ， Fracture Segmentation ， nn-UNet  
 
+## Overview
 This solution is based on [nnUnet](https://github.com/MIC-DKFZ/batchgenerators) and [batchgenerators](https://github.com/MIC-DKFZ/batchgenerators)
-
 ![image](https://github.com/LSL000UD/RSNA2022-7th-Place/blob/main/overview.png)
 
-## Overview
 In our solution,  3D segmentation methods are utilized for fracture detection task. Since host do not provide segmentation label for fracture region, we use data-augmentations and bounding box GT to generate Pseudo segmentation masks. Our final framework consist of 3 stages:
 
 - Stage 1: Segment C1-C7 using 3D-UNet
