@@ -18,6 +18,7 @@ In our solution,  3D segmentation methods are utilized for fracture detection ta
 ## Requirements
 - torch==1.11.0+cu115
 - Python 3.7+
+- At least 24 GB GPU memory
 
 
 ## Training
