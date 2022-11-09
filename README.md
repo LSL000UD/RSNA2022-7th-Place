@@ -40,6 +40,7 @@ Training codes are directly modified on nn-UNet, so it may not be well organized
 	- Follow nnUnet workflow to train the model and get prediction results of stage1 
 		- cd /Training/Task_101_VertebralLocation_GeneratePseudoLabel/
 		- python nnUNet_prepare_raw_data.py
+		- python nnUNet_plan_and_preprocess.py
 		- python nnUNet_change_plan.py
 		- python nnUNet_run_training.py
 		- python inference.py
@@ -49,6 +50,7 @@ Training codes are directly modified on nn-UNet, so it may not be well organized
 	- Follow nnUnet workflow to train the model and get prediction results of **stage2.1**
 		- cd /Training/Task_201_FractureDetection_GeneratePseudoLabel/
 		- python nnUNet_prepare_raw_data.py
+		- python nnUNet_plan_and_preprocess.py
 		- python nnUNet_change_plan.py
 		- python nnUNet_run_training.py
 		- python inference.py
@@ -56,6 +58,7 @@ Training codes are directly modified on nn-UNet, so it may not be well organized
 	- Follow nnUnet workflow to train the model and get prediction results of **stage2.2**
 		- cd /Training/Task_202_FractureDetection/
 		- python nnUNet_prepare_raw_data.py
+		- python nnUNet_plan_and_preprocess.py
 		- python nnUNet_change_plan.py
 		- python nnUNet_run_training.py
 		- python inference.py
@@ -63,6 +66,7 @@ Training codes are directly modified on nn-UNet, so it may not be well organized
 	- Follow nnUnet workflow to train the model and get prediction results of **stage2.3**
 		- cd /Training/Task_203_FractureDetection_Real5Fold/
 		- python nnUNet_prepare_raw_data.py
+		- python nnUNet_plan_and_preprocess.py
 		- python nnUNet_change_plan.py
 		- python nnUNet_run_training.py
 		- python final_inference_CV.py
